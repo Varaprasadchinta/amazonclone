@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/amazon-ember" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="amazon.jpg" alt="" height="40px" width="130px">
+            <div class="loginform">
+                <h1>Sign in</h1>
+                <form  method="get">
+                    <label for="mailphone">Email or mobile phone number</label>
+                    <input type="text" id="mailphone" required>
+                    <label for="pass" class="hidden">Enter Password</label>
+                    <input type="password" id="pass" class="hidden" required>
+                    <button type="submit">Continue</button>
+                </form>
+                <p>By contuning, you agree to Amazon's <a href="">Conditions of Use</a> and <a href="">Privacy Notice.</a></p>
+                <a href="">Need help?</a>
+            </div>
+        </div> 
+    <div class="footer">
+        <div class="new">
+            <span></span>
+            <p>New to Amazon?</p>
+        <span></span>
+        </div>
+        <button type="submit">Create your Amazon account</button>
+    </div> 
+</div>
+<script>
+    const p=mailphone.value
+    
+    console.log(p)
+</script>
+</body>
+</html>
